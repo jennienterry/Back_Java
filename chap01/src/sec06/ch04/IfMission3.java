@@ -14,6 +14,7 @@ public class IfMission3 {
 		if (SCORE >= 90) {
 			if (SCORE > 96) {
 				grade = "A+";
+				
 			} else if (SCORE > 93) {
 				grade = "A";
 			} else {
