@@ -11,7 +11,7 @@ public class WhileExam2 {
 			}
 
 			if(i%2==0) { //짝수일 때
-				continue;
+				continue; // 위에 조건식으로 다시 돌아감
 			}
 			System.out.println("i : " + i);
 		}

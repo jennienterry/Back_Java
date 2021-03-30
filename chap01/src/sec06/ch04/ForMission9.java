@@ -21,8 +21,9 @@ public class ForMission9 {
 //			for (int z = 1; z <= star; z++) {
 //				if (z < i) {System.out.print("_"); //true인 동안 별표찍음
 //				else {System.out.print("*");
+//					sym = "*";
 //				}
-//	         } System.out.println();
+//	         } System.out.println()
 //		}
 	}
 }
