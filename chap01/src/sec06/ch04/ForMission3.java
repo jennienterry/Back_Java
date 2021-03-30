@@ -6,9 +6,10 @@ public class ForMission3 {
 		int star = (int)(Math.random() * 6) + 5;
 	    System.out.println("star : " + star);
 	    
-	    for (int i=0; i<star; i++) {
+	    for (int i=0; i<star; i++) { // = i=1; i<=star
 	    	System.out.print("*");
 	    }
+	  
 
 	}
 
