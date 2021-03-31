@@ -1,7 +1,7 @@
 package sec06.ch04;
 
 public class SwitchExam {
-	public static void main(String[] args) {
+	public static void main(String[] args) { //switch에서는 double 사용불가 / 정수,문자열만 가능
 //		switch(값)
 		int val = 2;
 		switch (val) {

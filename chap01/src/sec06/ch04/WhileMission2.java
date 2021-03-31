@@ -21,7 +21,7 @@ public class WhileMission2 {
 //		int val = (int)(Math.random()*11);// 0~10사이 랜덤값이 나오도록 함
 //		System.out.println("val : " + val);
 //		
-//		while(val!=0) {
+//		while(val!=0) { // while문은 여기 true여야 한번이라도 실행
 //			sum = sum + val;
 //			val=(int)(Math.random()*11);
 //			System.out.println("val : " + val);
