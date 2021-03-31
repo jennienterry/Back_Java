@@ -2,7 +2,7 @@ package sec06.ch04;
 
 public class WhileExam2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //1~10, 홀수만 출력
 		int i = 0;
 		while (true) { // !!continue 만나면 바로 여기로 옴 !!
 			i++;
@@ -14,6 +14,7 @@ public class WhileExam2 {
 				continue; // 위에 조건식으로 다시 돌아감
 			}
 			System.out.println("i : " + i);
+			
 		}
 		
 		System.out.println("끝");
