@@ -16,10 +16,10 @@ public class WhileExam3 {
 //		System.out.println(); //차이점 비교하기 !
 //		int val = 0, sum = 0;
 //		
-//		while (val != 0);
+//		while (val != 0){
 //		    val = (int) (Math.random() * 11);
 //			sum += val;
-//		}
+//		} 
 //
 //		System.out.println("while-sum : " + sum);
 		

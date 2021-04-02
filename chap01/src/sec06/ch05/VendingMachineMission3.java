@@ -45,9 +45,6 @@ public class VendingMachineMission3 {
 		scan.close();
 
 			}
-
-	
-		
 		
 		}
 	
