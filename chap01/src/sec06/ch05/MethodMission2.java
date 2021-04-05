@@ -13,7 +13,7 @@ public class MethodMission2 {
 		
 		
 		//2번문제
-		System.out.println("절대값 : " + abs(10)); // 비void //10
+		System.out.println("절대값 : " + abs(10)); //10 // 이렇게 어디 소속되어 있으면 비void임 
 		System.out.println("절대값 : " + abs(-10)); // 10
 	}
 

@@ -4,7 +4,7 @@ public class IfMission3_ {
 	public static void main(String[] args) {
 		final int SCORE = (int) (Math.random() * 41) + 60;
 		System.out.println("SCORE : " + SCORE);
-		// SCORE 값은 81 ~ 100점 사이의 값이 된다. (실생할 때마다 달라진다.)
+		// SCORE 값은 60 ~ 100점 사이의 값이 된다. (실생할 때마다 달라진다.)
 
 		// 91~100 A (97점 이상은 "A+", 96~94 "A", 93~91 "A-")
 		// 81~90 B (87점 이상은 "B+", 86~84 "B", 83~81 "B-")

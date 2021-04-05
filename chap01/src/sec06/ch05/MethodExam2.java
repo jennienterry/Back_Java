@@ -5,7 +5,7 @@ public class MethodExam2 {
 	public static void main(String[] args) { //리턴타입: void, 비void / 파라미터:o,x -> 총 4가지 타입의 메소드를 만들 수 있음
 		int n1 = 10, n2 = 30;
 
-		voidSum(n1,n2); //여기는 호출임 / void는 앞에 = 쓰면 안됨 !!! 값을 받겠다는 의미 자체가 없음, return 없음
+		voidSum(n1,n2); //여기는 호출임 / void는 앞에 = 쓰면 안됨 !!! 값을 받겠다는 의미 자체가 없음/ return은 가지고 있음
 		voidSum(1,2);
 		
 		System.out.println("-------"); // void형은 2차가공을 못함

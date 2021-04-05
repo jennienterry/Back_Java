@@ -12,19 +12,19 @@ public class IfMission2 {
 //		System.out.println(gender.equals("여"));
 
 		if (gender.equals("남")) {
-			if (height > 175) {
+			if (height < 175) {
 				System.out.println("평균미만");
 			} else if (height == 175) {
 				System.out.println("평균");
-			} else if (height < 175) {
+			} else if (height > 175) {
 				System.out.println("평균초과");
 			}
 		} else if (gender.equals("여")) {
-			if (height > 163) {
+			if (height < 163) {
 				System.out.println("평균미만");
 			} else if (height == 163) {
 				System.out.println("평균");
-			} else if (height < 163) {
+			} else if (height > 163) {
 				System.out.println("평균초과");
 			}
 

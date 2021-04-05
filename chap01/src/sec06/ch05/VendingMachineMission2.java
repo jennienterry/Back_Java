@@ -36,6 +36,7 @@ public class VendingMachineMission2 {
 			usePrice += menuPriceArr[selectedIdx];
 		}
 		System.out.printf("종료 - 사용한 금액 : %,d", usePrice);
+		scan.close();
 	}
 
 }

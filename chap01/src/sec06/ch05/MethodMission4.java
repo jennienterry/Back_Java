@@ -35,5 +35,7 @@ public class MethodMission4 {
 		return (int) (Math.random() * (max-min)+1) + min; // 최댓값-최솟값 +1 
 	}
 	}
+
+//오버로딩 (같은이름의 메소드를 여러개 만들 수 있음, 객체언어의 특징)
 	
 

@@ -21,4 +21,5 @@ public class MethodExam {
 	}
 }
 
-//void인 메소드, void가 아닌 메소드
+// void인 메소드, void가 아닌 메소드
+// 메소드 안에서 다른 메소드 호출가능, but 정의를 메소드안에서 하면 안됨
