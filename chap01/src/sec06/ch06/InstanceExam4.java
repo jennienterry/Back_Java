@@ -28,8 +28,6 @@ public class InstanceExam4 {
 		
 		c2.drive();
 		c2.stop();
-
-
 	}
 }
 

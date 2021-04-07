@@ -24,12 +24,12 @@ public class InstanceExam3 {
 		num = 20;
 	}
 
-	public static void changeBoxNum(Box box2) {/* 위와 같이 다른 변수이다.Box의 주소값을 복사하여 가져옴 */
+	public static void changeBoxNum(Box box2) {/* 위와 같이 다른 변수이다. Box의 주소값을 복사하여 가져옴 */
 		box2 = new Box(); /* 레퍼런스 변수는 주소값을 리턴할 필요가 없다 */
 		box2.num = 20; /* 주소값이 바뀌는게 아니라 주소값 안의 값을 바꾼것(위에서 주소값을 참조하여 그 주소값으로 접근하여) */
 	}
 }
 
 class Box { /* 멤버필드를 속성이라고도 한다. (사람의 키, 몸무게, 이름... 과 같은 것들) */
-	int num;
+	int num; /* 메소드 끝나면 죽음 ,날라감 */
 }

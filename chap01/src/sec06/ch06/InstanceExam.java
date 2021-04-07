@@ -15,8 +15,7 @@ public class InstanceExam {  // sec06.ch06.InstanceExam이 풀네임!
 		Dog d2 = new Dog();
 		
 //		Dog/*Dog type도 가능(사용자 정의 클래스) : 레퍼런스 변수타입 !! */ d1/* 변수 명 */ = new/* 객체화를 시켜주는 키워드 */ Dog();
-		/* new Dog(); -> 이렇게만 적으면 한번만 적고 끝나고 위처럼 적으면 계속 존재한다. */ 
-//		byte, short, int, long, float, double, char, boolean -> 이외에는 다 참조타입(레퍼런스 타입 : 대문자로 시작하는 특징이 있다.)
+		/* new Dog(); -> 이렇게만 적으면 한번만 적고 끝나고 위처럼 적으면 계속 존재한다. */
 //		int aaa = true; -> boolean 과 int 같이 사용 불가!!! 한번 타입을 정하면 계속 그 타입이다.
 //		Dog d2 = new Dog(); /* 같은 도그의 구조를 가지고 있지만 d1 d2는 다른 주소값 다른 존재이다. 각자 다른 값을 저장 할 수 있다. */
 		
