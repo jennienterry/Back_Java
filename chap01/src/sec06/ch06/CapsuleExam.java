@@ -72,8 +72,8 @@ class Human{
 	// setter는 쓰기 ! // 단축키 : ctrl+3 -> getter -> 엔터
     public void setAge(int age) {
     	this.age = age;
-    	return;
     }
+    
     public void setName(String name) {
     	this.name = name;
     }
