@@ -9,18 +9,19 @@ public class StaticExam {
 		t1.name = "디즈니";
 		System.out.println("t1.name : " + t1.name);
 
-		t2.name = "롯데"; // static은 이렇게 쓰는거 아님
+		t2.name = "롯데"; // static은 이렇게 쓰는거 아님 (지양)
 		
 		Toy.name = "SOC"; // 요렇게 쓰는거 -> class 차원으로 관리한다는 뜻임
 		System.out.println("t2.name : " + t2.name);
 		System.out.println("t1.name : " + t1.name);
-		System.out.println("Toy.name : " + Toy.name); //클래스명, 변수명, 다 접근가능하지만 class단위로 씀
+		System.out.println("Toy.name : " + Toy.name); //클래스명, 변수명, 다 접근가능하지만 class단위로 접근하여 사용하기
+		// static은 class명.으로 접근하기 !! / t2,t1같이 주소값으로 접근ㄴㄴ
 	}
 
 }
 
-class Toy{
-	static String name; //static 붙은 것은 프로그램 실행하면 메모리에 바로 올라감, 값 하나밖에 저장 못함
+class Toy{ //멤버필드의 경우
+	static String name; //static 붙은 것은 프로그램 실행하면 class메모리에 바로 올라감 (stack, heapㄴㄴ), 값 하나밖에 저장 못함
 	                    //객체화랑 상관없이, static 붙은애와 안붙은 애는 완전히 다름
 }
 
