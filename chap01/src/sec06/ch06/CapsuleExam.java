@@ -33,7 +33,6 @@ public class CapsuleExam {
 class Human{
 	private int age;
 	private String name; //	private final int MAX_AGE = 100; private이랑 final은 상관없음
-
 	
 	//생성자는 쓰기 !
 	//값 바꾸는 것은 setter로만 가능 !
@@ -85,7 +84,7 @@ class Human{
     }
     
     public String getName() {
-    	return name;
+    	return this.name;
     }	
     	
     public void whoAmI() {

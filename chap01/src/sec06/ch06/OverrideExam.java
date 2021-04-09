@@ -25,7 +25,7 @@ class NumBox{
 		return num;
 	}
 	
-	@Override // 부모꺼 안쓰고 바꿔쓸 수 있다.
+	@Override // 부모꺼 그대로 안쓰고 바꿔쓸 수 있다.
 	public boolean equals(Object obj) {
 //		Object obj2 = new NumBox(10); // 주소값도 가르킬 수 있고, 정수값도 가질 수 있음
 		NumBox temp = (NumBox)obj;

@@ -53,7 +53,7 @@ class CalcStatic2 {
 	}
 }
 
-class CalcInstance2 {
+class CalcInstance2 { //static final(상수)는 많이 사용하는데, static 변수는 잘 안씀
 	int num1; // 원래는 모든 멤버변수(멤버필드)에 private하고 setter, getter해야 함 (보안을 위해서)
 	int num2;
 
@@ -62,7 +62,9 @@ class CalcInstance2 {
 		//여기는 this.사용가능 
 	}
 
-	static int sum(int n1, int n2) {
-		return n1 + n2;
+	static int sum(int n1, int n2) { // 이 방법 기억하기 !
+		return n1 + n2; // = return CalcInstance2.num1 + n2;
 	}
 }
+
+// * 파라미트로 넘어왔는 값으로만 작업이 이루어진다면 static 붙이기, 멤버필드를 사용하면 static 붙이면 안된다 ! *
