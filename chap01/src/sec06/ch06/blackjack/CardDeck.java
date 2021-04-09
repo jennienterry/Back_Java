@@ -5,7 +5,7 @@ public class CardDeck {
 	private final Card[] CARD_ARR = new Card[52]; // final은 배열이름규칙이 대문자여야함 /static : 객체생성이랑만 관계없이 혼자, 하나다
 
 	public CardDeck() {
-		String[] pattern = { "Spades", "Hearts", "Diamonds", "Clubs" };
+		String[] pattern = { "Spades", "Hearts", "Diamonds", "Clubs" }; //지역변수는 (쓰면 없어지니까) public의미가 없음, 전역변수만 public 사용가능 (final은 가능)
 		String[] symbol = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
 
 //		for (int i = 0; i < CARD_ARR.length; i++) {

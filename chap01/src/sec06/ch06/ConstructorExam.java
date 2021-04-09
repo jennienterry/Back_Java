@@ -43,12 +43,12 @@ public class ConstructorExam {
 }
 
 class Tv {
-	private String brand; // null
-	private int inch; //0
-	private int maxChannel;
-	private int maxVolume;
-	private int currentChannel;
-	private int currentVolume;
+	 String brand; // null
+	 int inch; //0
+	 int maxChannel;
+	 int maxVolume;
+	 int currentChannel;
+	 int currentVolume;
 
 	// 생성자 vs 메소드 : 구분기준
 	// 기본 생성자
