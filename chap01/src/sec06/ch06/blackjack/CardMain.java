@@ -9,7 +9,7 @@ public class CardMain {
 //		println(c1);
 		
 		
-		//실제 String을 보내야 string이 적용이 된다. 참조변수들은 object 사용 ---------- ?뭔말이야
+		//실제 String을 보내야 string이 적용이 된다. 참조변수들은 object 사용
 		Card c2 = new Card("heart", "2");
 		System.out.println(c2); // heart (2)
 //		System.out.println(c2.toString()); 
@@ -18,8 +18,8 @@ public class CardMain {
 		
 		Card c3 = new Card("club", "J");
 		System.out.println(c3); //club (J)
-		CardDeck a = new CardDeck();
-		a.prin(); //CardDeck 실행하는 것 ! main에서만 실행
+		CardDeck a = new CardDeck(); //CardDeck 실행하는 것 ! main에서만 실행
+//		a.prin(); 
 	}
 
 	
