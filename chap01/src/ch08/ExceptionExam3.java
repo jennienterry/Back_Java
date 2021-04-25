@@ -20,8 +20,9 @@ public class ExceptionExam3 {
 }
 
 class Calc2 {                       // 최상위 객체
-	int div(int n1, int n2) throws Exception {
-		return n1 / n2; //여기서 catch 부르면????????? 하드코딩이 됨
+	int div(int n1, int n2) throws Exception {// 에러가 발생되면 위에 catch로 올라가서 어떻게 처리하겠냐? 하고 처리를 함
+											  // throw를 안쓰면 오류가 return으로 하드코딩 되어서 나타남
+		return n1 / n2;
 	}
 }
 

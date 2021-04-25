@@ -1,7 +1,6 @@
 package ch08;
 
 public class ExceptionExam {
-	// sec06.ch08 (패키지)
 	// 터지면 런타임..
 	// Exception : 실행 x, 프로그램이 멈추면 안된다 ! 예외를 두는 문법
 	// 예외발생 가능성이 조금이라도 있으면 사용해주기
